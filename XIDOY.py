@@ -27,6 +27,7 @@ try:
     from PIL import Image
 except (ModuleNotFoundError):
     exit(f'''
+    {sara} :
 # banner (sara-v3.0)
 def banner():
     os.system("cls" if os.name == "nt" else "clear")
