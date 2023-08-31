@@ -27,9 +27,6 @@ try:
     from PIL import Image
 except (ModuleNotFoundError):
     exit(f'''
-{sara} : It seems there is a module that you have not installed
-         run this command \'{g}pip install -r requirements.txt{w}\'
-         to install it.
     ''')
 # banner (sara-v3.0)
 def banner():
