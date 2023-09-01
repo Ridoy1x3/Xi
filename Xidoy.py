@@ -25,7 +25,7 @@ try:
     import requests
     import fileinput
     from PIL import Image
-except (ModuleNotFoundError):
+except (ModuleNotFoundError)
     exit
 # banner (sara-v3.0)
 def banner():
